@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+table tr td:last-child { text-align: left }
+
+/* Dica! A classe collapsed não aparece no primeiro clique, o que inverteria nossa lógica. Por isso usamos o atributo aria-expanded para girar a seta */
+[aria-expanded="true"] #showClasses { transform: rotate(180deg) }
+
+#showClasses { transition: all 0.6s ease-out }
+
+#voltarBtn {
+    position: relative
+}
+
+#voltarBtn .fa-chevron-left {
+    position: absolute;
+    color: white;
+    animation-name: toTheLeft;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+#voltarBtn:hover .fa-chevron-left { animation-play-state: running }
+
+@keyframes toTheLeft {
+    0% {
+        color: white;
+        left: 40%;
+        top: 31%;
+    }
+
+    90% {
+        color: white;
+        left: 35%;
+        top: 31%;
+    }
+
+    91% {
+        color: transparent;
+        left: 35%;
+        top: 31%;
+    }
+
+    99% {
+        color: transparent;
+        left: 55%;
+        top: 31%;
+    }
+
+    100% {
+        color: white;
+        left: 40%;
+        top: 31%;
+        animation-play-state: initial;
+    }
+}
