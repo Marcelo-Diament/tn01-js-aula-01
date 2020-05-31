@@ -21,7 +21,7 @@
   
 # console.log
 
-![Console.log](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01-pronto/master/assets/img/console.png)
+![Console.log](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01/master/assets/img/console.png)
 
 Basicamente trazemos informações para o DevTools através do console.log. Como o próprio nome já diz, estamos acessando o **console** e criando um **log**. O log é um método, uma função - log('_conteúdo que queremos exibir_'). Faremos uma série de práticas para entendermos o console.log.
 
@@ -114,7 +114,7 @@ console.assert(minhaVar < 5, 'minhaVar não é menor que 5')
 
 # Interação via Browser
 
-![Interação via browser](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01-pronto/master/assets/img/interacao.png)
+![Interação via browser](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01/master/assets/img/interacao.png)
 
 Temos 3 maneiras de interagir com o usuário através do próprio browser. Essas interações consistem naquelas 'caixinhas' (tipo pop up). Essas 3 maneiras são:
 
@@ -132,7 +132,7 @@ _Podemos guardar o valor inserido numa variável_
 
 # Seletores JS
 
-![Seletores JS](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01-pronto/master/assets/img/seletores.png)
+![Seletores JS](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01/master/assets/img/seletores.png)
 
 Funcionam de modo bem semelhante ao CSS, porém precisamos acessar o documento (_document_) para então selecionarmos os elementos. De forma geral, podemos fazer isso de duas maneiras:
 
@@ -184,7 +184,7 @@ inputsNumber = document.querySelectorAll('[type="number"]');
 
 # Tipos de Dados
 
-![Tipos de Dados](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01-pronto/master/assets/img/tipos-de-dados.png)
+![Tipos de Dados](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01/master/assets/img/tipos-de-dados.png)
 
 Temos 2 divisões macro - os dados primitivos e objetos. À grosso modo, os tipos primitivos ficam guardados numa _stack_ (pilha), na memória física. Já os objetos ficam guardados no _heap_ (um amontoado) - e esses objetos são referenciados por ponteiros guardados na _stack_. Vale pontuar que quando criamos objetos que sejam cópia de outros objetos, na realidade estamos copiando o _pointer_ (ponteiro, ou seja, o referenciador), e não o objeto em si.
 
@@ -275,7 +275,7 @@ Também temos outros tipos de objetos como: _Map_, _Set_, _WeakMap_, _WeakSet_ (
 
 # Condicionais
 
-![Condicionais](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01-pronto/master/assets/img/condicionais.png)
+![Condicionais](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01/master/assets/img/condicionais.png)
 
 Funcionam exatamente como visto em PHP. Temos as condicionais:
 
@@ -320,7 +320,7 @@ _Curiosidade: podemos ter **true** como parâmetro e, em cada caso declaramos co
   
 # Loops
 
-![Loops](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01-pronto/master/assets/img/loops.png)
+![Loops](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01/master/assets/img/loops.png)
 
 Também funcionam de maneira bem semelhante ao PHP (com poucas diferenças). Também temos 2 loops novos, descritos mais adiante.
 
@@ -380,7 +380,7 @@ for ( propriedade in objeto ) {
 
 # Escopos
 
-![Escopos](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01-pronto/master/assets/img/escopo.png)
+![Escopos](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01/master/assets/img/escopo.png)
 
 É muito importante entenderem como funcionam os escopos para que entendam como criar as variáveis e como e onde acessá-las. Basicamente temos 3 tipos de escopo:
 
@@ -402,7 +402,7 @@ Chamamos de bloco os blocos de condicionais ou loops. Muitas vezes queremos mant
 
 # Variáveis
 
-![Variáveis](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01-pronto/master/assets/img/variaveis.png)
+![Variáveis](https://raw.githubusercontent.com/Marcelo-Diament/tn01-js-aula-01/master/assets/img/variaveis.png)
   
 ## const
 Recebe um valor _constante_, ou seja, uma vez declarada não pode ter um novo valor atribuído a ela. Lembrando que não precisa receber necessariamente um valor numérico ou string - podemos atrelar a essa _const_ uma função também. Exemplo:
