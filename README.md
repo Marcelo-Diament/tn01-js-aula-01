@@ -473,7 +473,7 @@ function()
 ```
  
 ## Conteúdo Extra | Closure
-No exemplo abaixo temos duas _closures_ - soma5() e soma10(). Ambas compartilham o mesmo corpo de função, mas possuem **ambientes distintos** (cada uma tem um valor distinto para _x_). Ademais, usando a função criarSomador(), tornamos a função anônima de retorno dessa função (_function (y) { return x + y }_) é privada.
+No exemplo abaixo temos duas _closures_ - soma5() e soma10(). Ambas compartilham o mesmo corpo de função, mas possuem **ambientes distintos** (cada uma tem um valor distinto para _x_). Ademais, usando a função criarSomador(), tornamos a função anônima de retorno dessa função (_function (y) { return x + y }_) privada.
 
 ```js
 function criarSomador(x) {
