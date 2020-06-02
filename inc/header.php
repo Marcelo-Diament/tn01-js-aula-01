@@ -1,19 +1,4 @@
 <body>
-    <div class="container-fluid bg-warning text-black p-3" id="debugModeContainer">
-        <div class="row">
-            <h3 class="col-12 mt-3"><i class="fa fa-bug mr-3"></i> DEBUG MODE ON</h3>
-            <!-- IF -->
-            <p class="col-12 mb-3" type="button" data-toggle="collapse" data-target="#debugDetails" aria-expanded="false" aria-controls="debugDetails"><b>Confira as classes instanciadas</b> <i class="fa fa-chevron-down ml-1" id="showClasses"></i></p>
-            <div class="collapse col-12 row" id="debugDetails">
-                <div class="col-12 d-flex justify-content-start align-items-start flex-row flex-nowrap">
-
-                </div>
-            </div>
-            <!-- ELSE -->
-            <p class="col-12 mb-3"><b>Por enquanto não há instâncias de classes</b></p>
-            <!-- ENDIF -->
-        </div>
-    </div>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="./index.php">JS | AULA I</a>
