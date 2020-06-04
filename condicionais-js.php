@@ -4,7 +4,7 @@
     <section class="row py-5">
         <header class="col-12 p-3 mx-auto mb-4 row">
             <h1 class="col-12 text-center mb-5">Condicionais</h1>
-            <img class="col-12 col-lg-6 mx-auto rounded" src="./assets/img/condicionais.png" alt="Tipos de Dados" width="100%" height="auto">
+            <img class="col-12 col-lg-6 mx-auto rounded" src="./assets/img/condicionais.png" alt="Condicionais" width="100%" height="auto">
             <article class="col-12 col-lg-6 mx-auto">
                 <h2 class="col-12 mb-3">Como funcionam?</h2>
                 <p class="col-12">As condicionais são basicamente aquelas mesmas condicionais que vimos em PHP, onde podemos declarar uma condição e a execução de um código caso a condição seja verdadeira - ou caso seja falsa. Também podemos prever <i>n</i> casos.</p>
