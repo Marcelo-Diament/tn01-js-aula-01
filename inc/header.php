@@ -20,7 +20,7 @@
                         <a class="nav-link" href="./seletores-js.php">Seletores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./tipos-de-dados-js.php">Tipos de Dados</a>
+                        <a class="nav-link" href="./tipos-de-dados.php">Tipos de Dados</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./condicionais-js.php">Condicionais</a>

@@ -31,7 +31,7 @@
             <div class="col-12 m-0 px-0 py-3 row bg-light rounded-bottom">
                 <h2 class="col-12">Tipos de Dados</h2>
                 <p class="col-12">Entendendo os tipos de dados em JS, como String, Number, BigInt, Array e Object</p>
-                <a href="./seletores-js.php" title="Seleção de Elementos" class="btn btn-dark d-block w-25 ml-auto mr-3">Saiba Mais</a>
+                <a href="./tipos-de-dados.php" title="Seleção de Elementos" class="btn btn-dark d-block w-25 ml-auto mr-3">Saiba Mais</a>
             </div>
         </article>
         <article class="col-12 col-lg-6 p-3 mx-auto">
