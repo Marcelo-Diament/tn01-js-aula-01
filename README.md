@@ -70,7 +70,7 @@ Traz o log só que amarelo e com o ícone de alerta (se não quiser setar 'na m�
 Traz o log só que vermelho (e com o ícone X)
 
 #### console.trace()
-Nos traz o 'ratro' do que está acontecendo, indicando o arquivo e linha de cada item chamado. Exemplo:
+Nos traz o 'rastro' do que está acontecendo, indicando o arquivo e linha de cada item chamado. Exemplo:
 ```js
 function x( param ) {
   function y( param ) {
