@@ -234,7 +234,7 @@
                             console.log(`\nmeuArray[1] = ${meuArray[1]}\n\n`)
                         </code>
                     </div>
-                    <p class="mt-3">Caso tentemos acessar um índice inexistente, recebemos -1 de retorno:</p>
+                    <p class="mt-3">Caso tentemos acessar um índice inexistente, recebemos undefined de retorno:</p>
                     <div class="bg-dark p-5">
                         <code class="font-weight-bold">
                             console.log(`\nmeuArray[1] = ${meuArray[9]}\n\n`)
